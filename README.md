@@ -92,6 +92,3 @@ Just as **VCF became the backbone of genomics**, .aix can become the backbone of
 
 ⚡ **Discussion Prompt**  
 Are APIs enough for smarter models — or is it time to embrace an **execution layer like .aix**?
-
-⚡ **Discussion Prompt**  
-Do APIs still serve evolving models, or is it time to embrace execution-layer standards like .aix?  
