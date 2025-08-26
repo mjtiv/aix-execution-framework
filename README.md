@@ -1,29 +1,58 @@
 # 🚲 APIs Were Training Wheels, .aix Is the Execution Framework
 
-As large language models evolve, the way we interact with them must evolve too.  
+![From APIs → Agentic AI → .aix](apis_agentic_aix.png) 
+
+Large language models are evolving fast — but the way we *execute* them hasn’t kept up.  
+Today’s systems rely on APIs and “agentic AI” frameworks that look impressive, but are brittle, slow, and hard to trust at scale.  
+What’s missing is an **execution layer** — a standard for packaging logic, memory, and persona into a portable, auditable format.  
+
+That’s the role of **.aix**.  
 
 ---
 
+## 🕰️ Where We’ve Been
+
 ### 1. APIs = Training Wheels  
-- Rigid endpoints  
-- Brittle chains of calls  
-- Context constantly dropped  
+- Clear, rigid endpoints  
+- Easy to script: call AI → get response → continue loop  
 - Good for weak models, but limiting for strong ones  
+- **Problem:** APIs are stateless, brittle, and force models into tiny boxes  
+
+> APIs were training wheels — useful early on, but constraining once models are strong enough to ride on their own.  
 
 ---
 
 ### 2. Agentic AI = Workflow Theater  
-- Orchestrations that look busy, but mostly shuffle API calls  
-- Fragile pipelines that collapse under real complexity  
-- Expensive to scale, hard to trust  
+The term *Agentic AI* is often misapplied.  
+
+- **True definition:** Agents that can **reason, plan, and act autonomously**, with continuity of memory and identity.  
+- **Current usage (hype):** Prompt-chained orchestration — models calling APIs in loops, marketed as “autonomy.”  
+  - Example: Call LLM → get response → feed into next API → repeat.  
+  - Looks like autonomy, but collapses under complexity.  
+
+**Problems with today’s “agentic AI”:**  
+- Stateless, ephemeral runs  
+- Loses context/persona between steps  
+- Expensive and fragile at scale  
 
 ---
 
-### 3. .aix = Execution Framework  
-- Self-contained logic + rules  
-- Continuous memory + scoped state  
-- Natural autonomy, but with auditability  
-- Portable across nodes, models, or systems  
+## 🚀 Where We’re Going: .aix Execution Framework
+
+.aix introduces a **true execution layer** for AI.  
+Instead of brittle prompt chains, .aix packages an agent’s **logic, memory, and persona** into a portable container.  
+
+### ✅ What .aix Enables
+- Self-contained logic + scoped state  
+- Continuous memory with fallback rules  
+- Auditable and reproducible execution  
+- Portable across GPT, LLaMA, Grok, or edge devices  
+
+### 🌐 Why It Matters
+If agentic AI is to fulfill its *true definition* (autonomous, auditable, persistent systems),  
+it requires more than APIs — it requires an **execution standard**.  
+
+That standard is **.aix**.  
 
 ---
 
@@ -31,16 +60,17 @@ As large language models evolve, the way we interact with them must evolve too.
 
 ![aix timeline](aix_timeline.png)
 
-APIs were the training wheels.  
-Agentic AI is the interim crutch.  
-.aix is the execution framework that smarter models demand.  
+- APIs were the training wheels.  
+- Agentic AI (today’s hype) is the interim crutch.  
+- .aix is the execution framework that smarter models demand.  
 
 ---
 
-## Why It Matters
-As models scale, APIs don’t empower them — they handicap them.  
+## 🔬 Why This Matters
 
+As models scale, APIs don’t empower them — they handicap them.  
 Just as **VCF became the backbone of genomics**, .aix can become the backbone of AI execution:  
+
 - Open for research and creativity  
 - Commercially fair for enterprise use  
 - Standardized for trust, portability, and compliance  
